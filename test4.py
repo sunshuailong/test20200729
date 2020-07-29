@@ -1,9 +1,7 @@
-my_list = ['r','o','c','k','y']
+def fibs(n):
+    res =[0,1]
+    for i in range(n-2):
+        res.append(res[-2]+res[-1])
+    return res
 
-my_iter=iter(my_list)
-print(my_iter.__next__())
-print(my_iter.__next__())
-print(my_iter.__next__())
-print(my_iter.__next__())
-print(my_iter.__next__())
-print(my_iter.__next__())
+print(dir(fibs))

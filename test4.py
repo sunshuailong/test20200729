@@ -1,5 +1,7 @@
+def cau():
+    """this is a cau function"""
+    pass
 
-def my_digit():
-    return 1,2,3
-now =my_digit()
-print(now)
+print(cau.__doc__)
+cau.pig =100
+print(cau.pig)
